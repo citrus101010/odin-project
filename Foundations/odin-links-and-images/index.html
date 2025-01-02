@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Odin Links and Images</title>
+</head>
+<body>
+    <h1>Homepage</h1>
+
+    <a href="./pages/about.html">About Page</a>
+
+    <!-- Anchor element are used to create a link in HTML -->
+    <!-- The target tag is used to specify to open the links in a new tab. By default it use _self -->
+    <!-- The rel tag use two values here : 
+        noopener :  value prevents the opened link from gaining access to the webpage from which it was opened
+        noreferrer : value prevents the opened link from knowing which webpage or resource has a link (or ‘reference’) to it
+
+        It helps to prevent from phishing attack and provide more security.
+    -->
+    <a href="https://www.theodinproject.com" target="_blank" rel="noopener noreferrer">About the Odin Project</a>
+
+    <img src="./images/dog.jpg" alt="a nice dogo" height="310" width="310">
+</body>
+</html>
